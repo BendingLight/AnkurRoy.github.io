@@ -99,7 +99,7 @@ body {
     }
 
     .panel {
-        height: 100%;
+        height: auto;
         width: 100%;
         position: relative;
     }
