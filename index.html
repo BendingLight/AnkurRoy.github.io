@@ -1,246 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.png">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
 
-        <title>Ankur Roy</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <title>Ankur Roy</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">BendingLight</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Certificate</a></li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Ankur Roy</span><br> Data Engineer
+                </h1>
+
+                <a href="assets/file/resume/Resume.pdf" class="button">Resume</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/ankur-roy/" class="home__social-icon" title="linkedin"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://bendinglight.medium.com/" class="home__social-icon" title="medium"><i
+                        class='bx bxl-medium'></i></a>
+                <a href="https://github.com/bendinglight" class="home__social-icon" title="github"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.credly.com/users/ankur-roy.f35b8852/badges" class="home__social-icon"
+                    title="credly:badges"><i class='bx bx-badge-check'></i></a>
+                <!-- <a href="assets/file/certificates/combined_certificates.pdf" class="home__social-icon"
+                    title="certificates"><i class='bx bx-book-reader'></i></a> -->
+
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/data_eng.gif" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about_me.png" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo">BendingLight</a>
+                    <h2 class="about__subtitle">I'am Ankur Roy</h2>
+                    <p class="about__text">I'm a computer science graduate from the University of Delhi and a Data
+                        Science enthusiast. I love sketching and enjoy exploring outerspace in my free time.
+                        Occasionally, I play guitar too.</p>
+
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Certificate</a></li>
-                    
-                    </ul>
-                </div>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">Data engineer, software developer, data science enthusiast and lecturer with
+                        working experience in computer vision, time series data and mobile application development.
+                        Hands-on experience leveraging machine learning, deep learning models and cluster-computing to
+                        solve challenging business problems.</p>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Ankur Roy</span><br> Data Engineer</h1>
-
-                    <a href="assets/file/resume/Resume.pdf" class="button">Resume</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/ankur-roy/" class="home__social-icon" title="linkedin"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://bendinglight.medium.com/" class="home__social-icon" title="medium"><i class='bx bxl-medium' ></i></a>
-                    <a href="https://github.com/bendinglight" class="home__social-icon" title="github"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.credly.com/users/ankur-roy.f35b8852/badges" class="home__social-icon" title="credly:badges"><i class='bx bx-badge-check'></i></a>
-                    <a href="assets/file/certificates/combined_certificates.pdf" class="home__social-icon" title="certificates"><i class='bx bx-book-reader'></i></a>
-                    
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/data_eng.gif" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about_me.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Ankur Roy</h2>
-                        <p class="about__text">I'm a computer science graduate from the University of Delhi and a Data Science enthusiast. I love sketching and enjoy exploring outerspace in my free time. Occasionally, I play guitar too.</p>           
-
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Data engineer, software developer, data science enthusiast and lecturer with working experience in computer vision, time series data and mobile application development. Hands-on experience leveraging machine learning, deep learning models and cluster-computing to solve challenging business problems.</p>
-                        
-                        <!---PYTHON--->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-python skills__icon'></i>
-                                <span class="skills__name">PYTHON</span>
-                            </div>
-                            <div class="skills__bar skills__python">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">90%</span>
-                            </div>
+                    <!---PYTHON--->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon'></i>
+                            <span class="skills__name">PYTHON</span>
                         </div>
-                        <!---SQL--->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-data skills__icon'></i>
-                                <span class="skills__name">SQL</span>
-                            </div>
-                            <div class="skills__bar skills__sql">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
+                        <div class="skills__bar skills__python">
+
                         </div>
-                        <!---AZURE_CLOUD--->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-cloud skills__icon' ></i>
-                                <span class="skills__name">AZURE CLOUD</span>
-                            </div>
-                            <div class="skills__bar skills__cloud">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <!---ANALYSIS--->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-line-chart skills__icon' ></i>
-                                <span class="skills__name">ANALYSIS</span>
-                            </div>
-                            <div class="skills__bar skills__analysis">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <!---VISUALIZATION--->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">VISUALIZATION</span>
-                            </div>
-                            <div class="skills__bar skills__visualization">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
                         </div>
                     </div>
-                    
-                    <div>    
-                        <a href="#work" class="nav__link"><img src="assets/img/work2.png" alt="" class="skills__img">
-</a>          
+                    <!---SQL--->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-data skills__icon'></i>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__bar skills__sql">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <!---AZURE_CLOUD--->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-cloud skills__icon'></i>
+                            <span class="skills__name">AZURE CLOUD</span>
+                        </div>
+                        <div class="skills__bar skills__cloud">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <!---ANALYSIS--->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-line-chart skills__icon'></i>
+                            <span class="skills__name">ANALYSIS</span>
+                        </div>
+                        <div class="skills__bar skills__analysis">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <!---VISUALIZATION--->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">VISUALIZATION</span>
+                        </div>
+                        <div class="skills__bar skills__visualization">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
                     </div>
                 </div>
-            </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <a href="https://github.com/BendingLight/Pneumonia-Detection-From-Chest-X-Rays-Images">
-                            <img src="assets/img/work1.png" alt="">
-                        </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/BendingLight/German-Electricity-Market-Study">
-                            <img src="assets/img/work2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/BendingLight/Number-Detection-With-CNN-In-Keras">
-                            <img src="assets/img/work3.png" alt="">
-                        </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/BendingLight/Flutter-Gharelu_Chat">
-                            <img src="assets/img/work4.png" alt="">
-                        </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/BendingLight/Flutter-BMI">
-                            <img src="assets/img/work5.png" alt="">
-                        </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://github.com/BendingLight/Flutter-Xylophone">
-                            <img src="assets/img/work6.png" alt="">
-                        </a>
-                    </div>
+                <div>
+                    <a href="#work" class="nav__link"><img
+                            src="assets/img/project_thumbnail/pt2_german_market_study.png" alt="" class="skills__img">
+                    </a>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-            
-                <h2 class="section-title">Certification</h2>
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
 
-                <div class="contact__container bd-grid">
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <a href="https://github.com/BendingLight/Pneumonia-Detection-From-Chest-X-Rays-Images">
+                        <img src="assets/img/project_thumbnail/pt1_pneumonia_detection.png" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="https://github.com/BendingLight/German-Electricity-Market-Study">
+                        <img src="assets/img/project_thumbnail/pt2_german_market_study.png" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="https://github.com/BendingLight/Number-Detection-With-CNN-In-Keras">
+                        <img src="assets/img/project_thumbnail/pt3_number_detection.png" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="https://github.com/BendingLight/Flutter-Gharelu_Chat">
+                        <img src="assets/img/project_thumbnail/pt4_gharelu_chat.png" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="https://github.com/BendingLight/Flutter-BMI">
+                        <img src="assets/img/project_thumbnail/pt5_BMI.png" alt="">
+                    </a>
+                </div>
+                <div class="work__img">
+                    <a href="https://github.com/BendingLight/Flutter-Xylophone">
+                        <img src="assets/img/project_thumbnail/pt6_xylophone.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CERTIFICATE =====-->
+        <section class="contact section" id="contact">
+
+            <h2 class="section-title">Certification</h2>
+
+            <div class="contact__container bd-grid">
 
                 <div class="work__container bd-grid">
 
+                    <div class="work__img">
+                        <a href="assets/file/certificates/ms_dp_100.pdf">
+                            <img src="assets/img/certificates/ms_dp_100.png" alt="">
+                        </a>
+                    </div>
                     <div class="work__img">
                         <a href="assets/file/certificates/Coursera_Advance_Data_Science_Specialization.pdf">
-                            <img src="assets/img/ibm_adv_ds_sp.png" alt="">
+                            <img src="assets/img/certificates/ibm_adv_ds_sp.png" alt="">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="assets/file/certificates/Coursera_Applied_Data_Science.pdf">
+                            <img src="assets/img/certificates/ibm_apl_ds.png" alt="">
                         </a>
                     </div>
                     <div class="work__img">
                         <a href="assets/file/certificates/Coursera_IBM_Specialization.pdf">
-                            <img src="assets/img/ibm_ds_sp.png" alt="">
+                            <img src="assets/img/certificates/ibm_ds_sp.png" alt="">
                         </a>
                     </div>
                     <div class="work__img">
                         <a href="assets/file/certificates/Advance_Module_Course_Certificate.pdf">
-                            <img src="assets/img/cert_isro_advance.png" alt="">
+                            <img src="assets/img/certificates/isro_gis_adv_mod.png" alt="">
                         </a>
                     </div>
                     <div class="work__img">
                         <a href="assets/file/certificates/Basic_Module_Course_Certificate.pdf">
-                            <img src="assets/img/cert_isro_basic.png" alt="">
+                            <img src="assets/img/certificates/isro_gis_bsc_mod.png" alt="">
                         </a>
                     </div>
                     <div class="work__img">
-                        <a href="assets/file/certificates/AI-900.pdf">
-                            <img src="assets/img/ai_900.png" alt="">
+                        <a href="assets/file/certificates/ms_az_900.pdf">
+                            <img src="assets/img/certificates/ms_az_900.png" alt="">
                         </a>
                     </div>
                     <div class="work__img">
-                        <a href="assets/file/certificates/DP-900.pdf">
-                            <img src="assets/img/dp_900.png" alt="">
+                        <a href="assets/file/certificates/ms_ai_900.pdf">
+                            <img src="assets/img/certificates/ms_ai_900.png" alt="">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="assets/file/certificates/ms_dp_900.pdf">
+                            <img src="assets/img/certificates/ms_dp_900.png" alt="">
                         </a>
                     </div>
                 </div>
-                    <!--
+                <!--
                     <form action="" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
@@ -249,28 +278,29 @@
                     </form>
                 -->
 
-                </div>
-        
-            </section>
-
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">BendingLight</p>
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/ankur-roy/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://www.instagram.com/roy_who/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p>&#169; 2021 copyright all right reserved</p>
-        </footer>
+
+        </section>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">BendingLight</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/ankur-roy/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/roy_who/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
